@@ -38,14 +38,6 @@ jQuery(function($) {
 			.css('margin-top', (posTop * t.height()) - 10)
 			.prependTo($(this).parent());
 
-		rk_log("top: " + posTop);
-		rk_log("left: " + posLeft);
-		rk_log('');
 	});
-
-	function rk_log(data) {
-		console.log(data);
-		$('#console').append('<li>' + data + '</li>');
-	}
 
 });
